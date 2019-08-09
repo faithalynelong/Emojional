@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func showMessages(sender: UIButton){
-        
+    @IBAction func showMessages(sender: UIButton) {
+        let alertController = UIAlertController(title: "YOUR RESULTS ARE", message: "You cool dude", preferredStyle: UIAlertController.Style.alert); present(alertController, animated: true, completion: nil); alertController.addAction(
+        UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+        )
     }
     override func viewDidLoad() {
         super.viewDidLoad()

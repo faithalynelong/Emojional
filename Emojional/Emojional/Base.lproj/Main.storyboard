@@ -22,11 +22,17 @@
                                 <rect key="frame" x="45" y="311" width="92" height="114"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
                                 <state key="normal" title="💔"/>
+                                <connections>
+                                    <action selector="showMessagesWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FBU-k4-dq7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r88-6I-SKW">
                                 <rect key="frame" x="183" y="311" width="92" height="114"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="85"/>
                                 <state key="normal" title="🖤"/>
+                                <connections>
+                                    <action selector="showMessagesWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T0A-On-clR"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="E M O  " borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pjh-qw-e8S">
                                 <rect key="frame" x="20" y="50" width="280" height="76"/>
